@@ -1,0 +1,31 @@
+.menu ul {
+    list-style-type: none;
+    margin: 12px;
+    padding-left: 12px; 
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    border: 2px solid palevioletred;
+}
+
+.menu a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover{
+    color: violet;
+    background-color: grey;
+}
+
+.menu a.is-current {
+    background-color: green;
+}
+
+.is-current{
+    background-color: green;
+}
