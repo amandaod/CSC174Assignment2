@@ -1,0 +1,108 @@
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 960px;
+
+    display: grid;
+    grid-template-columns: 260px 1fr 200px; /* may need to tweak these numbers and the following to fix*/
+}
+
+.is-current {
+	background-color: black;
+ 	color: white;
+}
+
+header {
+    grid-column: 1/2;
+    margin-top: 25px;
+}
+
+aside {
+    grid-column: 2/4;
+    align-self: end;
+    font-size: 20px;
+}
+
+aside ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+main {
+    grid-column: 1/4;
+    font-size: 18px;
+}
+
+footer {
+    grid-column: 1/2;
+    font-size: 20px;
+}
+
+nav {
+    grid-column: 2/4;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 2px 10px;
+}
+
+header a {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    transform: rotate(-90deg);
+    position: absolute;
+    z-index: 100;
+    top: 70px;
+    left: -112px;
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+}
+
+header img {
+    padding-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+aside {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+footer {
+    font-weight: bold;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    margin: 0px;
+}
+
+p {
+    margin-top: 0px;
+}
