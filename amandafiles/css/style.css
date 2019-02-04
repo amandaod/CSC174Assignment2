@@ -1,70 +1,108 @@
-.is-current {
-    padding: 7px;
-    background-color: black;
-    color: white;
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
-a {
-    text-decoration: none;
-}
-h1 {
-    margin-bottom: -12px;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.roles {
-    margin-top: 64%;
-}
-.roles li {
-    font-size: 20px;
-}
-.nav-bar li {
-    margin-right: 15px;
-    display: inline;
-}
-.nav-bar {
-    align-self: center;
-    font-size: 21px;
-    grid-column: 3;
-}
-header a {
-    display: block;
-    position: relative;
-}
-header h1 {
-    font-size: 33px;
-    transform: rotate(-90deg);
-    position: absolute;
-    z-index: 100;
-    top: 61px;
-    left: -127px;
-}
-.content p {
-    font-size: 20px;
-}
 .container {
-    font-family: 'Lato', sans-serif;
-    padding-top: 25px;
-    display: grid;
-    grid-template-columns: 260px 1fr auto;
     margin: 0 auto;
     width: 90%;
     max-width: 960px;
+
+    display: grid;
+    grid-template-columns: 260px 1fr 200px; /* may need to tweak these numbers and the following to fix*/
 }
-.course-title {
-    grid-column: 1;
+
+.is-current {
+	background-color: black;
+ 	color: white;
 }
-.course-title h4 {
+
+header {
+    grid-column: 1/2;
+    margin-top: 25px;
+}
+
+aside {
+    grid-column: 2/4;
+    align-self: end;
+    font-size: 20px;
+}
+
+aside ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+main {
+    grid-column: 1/4;
     font-size: 18px;
 }
-.content {
-    margin-top: 14px;
-    grid-row: 2;
-    grid-column: 1 / 4;
+
+footer {
+    grid-column: 1/2;
+    font-size: 20px;
 }
-header {
-    margin-left: 20%;
+
+nav {
+    grid-column: 2/4;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 2px 10px;
+}
+
+header a {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    transform: rotate(-90deg);
+    position: absolute;
+    z-index: 100;
+    top: 70px;
+    left: -112px;
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+}
+
+header img {
+    padding-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+aside {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+footer {
+    font-weight: bold;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    margin: 0px;
+}
+
+p {
+    margin-top: 0px;
 }
