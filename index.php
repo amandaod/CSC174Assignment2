@@ -2,61 +2,68 @@
 <html lang="en">
 
 <head>
-    <title>Team Boston | Lab 2: "Flash" Website</title>
-    <?php include 'inc/head.inc';?>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Lab 3 | Team Boston</title>
 </head>
 
-<body class="container">
+<body>
+
+    <header>
+        <h1>Lab Three</h1>
+        <h5>The Good, the Bad, and the Adorable<h5>
+    </header>
+
     <main>
-        <header>
+
+        <div>
             <a href="amanda.php">
-                <h1>Amanda O'Donnell</h1>
-                <img src="images/amanda.jpg" alt="Amanda O'Donnell">
+                <h2>Sustenance</h2>
             </a>
-        </header>
-        <p>I am a student here at University of Rochester finishing up my major in Brain & Cognitive Sciences as well
-            as minors in Computer Science and Psychology. I knew coming into college that I wanted to major in Brain &
-            Cognitive Sciences because it seemed like a combination of biology and psychology—two subjects I had loved
-            in high school. I had originally planned on double majoring in psychology along with my Brain & Cognitive
-            Sciences major, but when I took The Science of Programming (CSC 171) as part of my Brain & Cognitive
-            Sciences program I loved it and decided to stick with it. I’m very glad I took that class early on in my
-            college career so that I was able to add a Computer Science minor and explore that newfound interest.</p>
-        <header>
-            <a href="jacob.php">
-                <h1>Jacob Lee</h1>
-                <img src="images/wonkuk-headshot.jpg" alt="Joseph Hur">
-            </a>
-        </header>
-        <p>
-            My name is Jacob Lee and I am currently a senior at the University of Rochester. I’m majoring in Computer
-            Science and plan to graduate this May with a Bachelor of Science. I have a passion for transforming
-            innovative ideas to seamless and elegant web applications. When I was a high schooler, I held a plethora of
-            different jobs such as yogurt, smoothie, and bubble tea making, chicken serving, and SAT teaching. Two
-            summers ago I worked at ClassLink as a Junior Developer Intern and would say that it wasn’t a pleasant
-            experience as I did not have much mentorship. However, I still learned a lot by myself through
-            stackoverflow and learning from my mistakes. The experience was so awful that I thought I would hate the
-            software engineering industry.
-        </p>
-        <header>
+            <p>While watermelons, tea and chocolate are all very different, they have in common the fact that they can
+                be eaten or drunk for nourishment. Therefore, the domain is Sustenance. Things that fall under the
+                category of sustenance have a number of different things in common.</p>
+        </div>
+
+        <div>
             <a href="joseph.php">
-                <h1>Joseph Hur</h1>
-                <img src="images/jhur.jpg" alt="Joseph Hur">
+                <h2>Enemies of Rome</h2>
             </a>
-        </header>
-        <p>
-            I am currently a 4th year student at the University of Rochester studying both Computer Science and
-            Anthropology. I was born in Fort Worth, Texas, but have lived in Hawaii (where one of my sisters was born)
-            and New Jersey (where my other sister was born). I grew up mostly in Bergen County, NJ, especially within
-            the Korean-American enclave of Palisades Park. Growing up I was always fascinated by computers and how they
-            worked. I remember milestones like the process of installing my first graphics card, and learning how to
-            mod video games.This semester, I am taking CSC174 and CSC 261. I hope to learn more advanced concepts of
-            front-end development from 174, and gain a more intricate understanding of relational databases through
-            261.
-        </p>
+            <p>Across the centuries of its existence, the Roman Empire fought against many foes:</p>
+            <ul>
+                <li>Hannibal Barca was a Carthaginian general and statesmen who led a famed invasion of Italy.</li>
+                <li>The Gauls were a group of Celtic peoples living mostly in what is now France, who were conquered by
+                    Julius Caesar.</li>
+                <li>Parthia was an Eastern Empire, and one of the few foreign powers that could rival Rome's power.</li>
+            </ul>
+        </div>
+
+        <div>
+            <a href="jacob.php">
+                <h2>Cat Breeds</h2>
+            </a>
+            <p>Cats have been domesticated and bred for thousands of years. Breeds' exact date of origin are usually a
+                mystery as there is always numerous conflicting data whether from the Roman times or the Aztecs.
+                Regardless, cats have been an integral part of human society since ancient times. Although there aren't
+                many cat breeds like those of dogs, there are still distinct personality traits as well as physical
+                distinctions between each cat breed. We will explore some of the most popular breeds (as well as those I
+                like the most) and what makes them distinct but similar with one another.</p>
+        </div>
+
     </main>
-    <?php include ('inc/nav.inc'); ?>
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="js/menu-highlighter.js"></script>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.php" class="is-current">Home</a></li>
+            <li><a href="amanda.php">Sustenance</a></li>
+            <li><a href="jacob.php">Cat Breeds</a></li>
+            <li><a href="joseph.php">Enemies of Rome</a></li>
+        </ul>
+    </nav>
+
+    <?php include 'inc/footer.inc';?>
 </body>
 
 </html>

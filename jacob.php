@@ -1,57 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<?php include 'inc/headjacob.inc';?>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Cat Breeds</title>
+</head>
 
-<body class="container">
-    <?php include 'inc/heading.inc';?>
-    <div class="content">
-        <p>
-            My name is Jacob Lee and I am currently a senior at the University of Rochester. I’m majoring in Computer
-            Science and plan to graduate this May with a Bachelor of Science. I have a passion for transforming
-            innovative ideas to seamless and elegant web applications. When I was a high schooler, I held a plethora of
-            different jobs such as yogurt, smoothie, and bubble tea making, chicken serving, and SAT teaching. Two
-            summers ago I worked at ClassLink as a Junior Developer Intern and would say that it wasn’t a pleasant
-            experience as I did not have much mentorship. However, I still learned a lot by myself through
-            stackoverflow and learning from my mistakes. The experience was so awful that I thought I would hate the
-            software engineering industry.
-        </p>
-        <h1> EARLY DAYS </h1>
-        <p>
-            I thought that the BS program in the University of Rochester is quite challenging as I struggled through
-            many of the core courses, most notably CSC 282 and 252. However, I have fortunately gotten through all of
-            them and only need one more 200 level course to graduate and have decided to take CSC 261 as this final
-            course. For my advanced CS course electives, I decided to concentrate on web and mobile programming as I’ve
-            taken CSC 210 and 214. I was born in Korea and spent most of my childhood in underdeveloped countries such
-            as the Papua New Guinea and the Philippines. So when I came to the United States in elementary school, I
-            was fascinated by the prevalence of computers and their sheer power. All I thought about was the next time
-            I could go on a computer and start making stick fights using this old program called Scratch. I think it
-            was this stark contrast between being in such underdeveloped countries and coming to the US and seeing all
-            this accessible and cool technology that made me interested in programming and computers in general.
-        </p>
-        <h1> JOB SEARCH </h1>
-        <p>
-            I had to study data structures and algorithms very extensively and this made me wish I studied harder
-            during CSC 172. I submitted more than 200 applications, from which I was ghosted by more than half of them.
-            Flying out to the final onsite interviews was a huge hassle as well, as I always had layover flights. These
-            interviews also occurred untimely during important exams I had the following week. It was difficult to
-            allocate my time to both interview prep and exams as I really wanted to land a job but I had to pass the
-            exams to be able to graduate.
-        </p>
-        <h1> WORK EXPERIENCE </h1>
-        <p>
-            Last summer, I worked at Ellucian as a Software Developer Intern. Thankfully in this second internship, I
-            had a very solid mentorship as it was a much bigger company and had a very enriching and invaluable
-            experience. This internship definitely revitalized my love for the industry. Most recently, I worked as a
-            Teaching Assistant for CSC 210 and also landed a full-time software engineering job in Boston which I will
-            start in July. The interview process for a full-time job was very difficult compared to the search for an
-            internship.
-        </p>
-    </div>
+<body>
+
+    <header>
+        <h1>Cat Breeds</h1>
+        <h5>The Good, the Bad, and the Adorable</h5>
+        <p>Cats have been domesticated and bred for thousands of years. Breeds' exact date of origin are usually a
+            mystery as there is always numerous conflicting data whether from the Roman times or the Aztecs. Regardless,
+            cats have been an integral part of human society since ancient times. Although there aren't many cat breeds
+            like those of dogs, there are still distinct personality traits as well as physical distinctions between
+            each cat breed. We will explore some of the most popular breeds (as well as those I like the most) and what
+            makes them distinct but similar with one another.</p>
+    </header>
+
+    <main>
+
+        <div>
+            <h2>British Shorthair<h2>
+                    <h3>History</h3>
+                    <p>The origins of the British Shorthair most likely date back to the first century AD, making it one
+                        of the most ancient identifiable cat breeds in the world. It is thought that the invading Romans
+                        initially brought Egyptian domestic cats to Great Britain; these cats then interbred with the
+                        local European wildcat population. Over the centuries, their naturally isolated descendants
+                        developed into distinctively large, robust cats with a short but very thick coat, the better to
+                        withstand
+                        conditions on their native islands. Based on artists' representations, the modern British
+                        Shorthair is basically unchanged from this initial type.</p>
+
+                    <h3>Traits</h3>
+                    <p>They are an easygoing and dignified breed, not as active and playful as many but sweet-natured
+                        and devoted to their owners, making them a favourite of animal trainers. They tend to be safe
+                        around other pets and children since they will tolerate a fair amount of physical interaction.
+                    </p>
+
+                    <h3>Coat Type</h3>
+                    <p>British Shorthairs have a shorthair style coat.</p>
+        </div>
+
+        <div>
+            <h2>Maine Coon<h2>
+                    <h3>History</h3>
+                    <p>The ancestral origins of the Maine Coon are unknown — there are only speculation and folk
+                        tales. One such folk tale involves Marie Antoinette, the Queen of France, who was executed
+                        in 1793. The story goes that before her death, Antoinette attempted to escape France with
+                        the help of Captain Samuel Clough. She loaded Clough's ship with her most prized
+                        possessions, including six of her favorite Turkish Angora cats. Although she did not make it
+                        to the United States, her pets safely reached the shores of Wiscasset, Maine, where they
+                        bred with other short-haired breeds and developed into the modern breed of the Maine Coon.
+                    </p>
+
+                    <h3>Traits</h3>
+                    <p>Maine Coons are known as the "gentle giants" and possess above-average intelligence, making
+                        them relatively easy to train. They are known for being loyal to their family and
+                        cautious—but not mean—around strangers, but are independent and not clingy. The Maine Coon
+                        is generally not known for being a "lap cat" but their gentle disposition makes the breed
+                        relaxed around dogs, other cats, and children.</p>
+
+                    <h3>Coat Type</h3>
+                    <p>Maine Coons have a longhair style coat.</p>
+        </div>
+
+        <div>
+            <h2>Ragdoll<h2>
+                    <h3>History</h3>
+                    <p>In the 1960s, a regular, non-pedigreed, light-grey, domestic longhaired cat named
+                        Josephine produced several litters of typical cats. Josephine was of a
+                        Persian/Angora type and had litters sired by several unknown male Birman or
+                        Burmese-like cats, one of which had the Siamese point coloration. Josephine later
+                        produced kittens with a docile, placid temperament, affectionate nature, and a
+                        tendency to go limp and relaxed when picked up. When a subsequent litter produced
+                        more of the same, Ann Baker purchased several kittens from the owner who lived
+                        behind her and, believing that she had something special, set out to create what is
+                        now known as the ragdoll. The breed was selectively bred over many years for
+                        desirable traits, such as large size, gentle demeanor, pointed coloration, and a
+                        tendency to go limp when picked up.</p>
+
+                    <h3>Traits</h3>
+                    <p>The Ragdoll is marketed by breeders as having a docile, calm and floppy nature with
+                        claims that these characteristics have been passed down from the Persian and Birman
+                        breeds. Opinions vary as to whether this trait might be the result of genetic
+                        mutation.</p>
+
+                    <h3>Coat Type</h3>
+                    <p>Ragdolls have a longhair style coat.</p>
+        </div>
+
+    </main>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="amanda.php">Sustenance</a></li>
+            <li><a href="jacob.php" class="is-current">Cat Breeds</a></li>
+            <li><a href="joseph.php">Enemies of Rome</a></li>
+        </ul>
+    </nav>
+
     <?php include 'inc/footer.inc';?>
-    <?php include ('inc/nav.inc'); ?>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/menu-highlighter.js"></script>
 </body>
 
 </html>

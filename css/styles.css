@@ -1,126 +1,68 @@
-.is-current {
-    padding: 7px;
-    background-color: black;
-    color: white;
-}
-
-a {
-    text-decoration: none;
-}
-
-h1 {
-    margin-bottom: -12px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.roles {
-    margin-top: 64%;
-}
-
-.roles li {
-    font-size: 20px;
-}
-
-.nav-bar li {
-    margin-right: 15px;
-    display: inline;
-}
-
-.nav-bar {
-    align-self: center;
-    font-size: 21px;
-    grid-column: 3;
-}
-
-header a {
-    display: block;
-    position: relative;
-}
-
-header h1 {
-    font-size: 33px;
-    transform: rotate(-90deg);
-    position: absolute;
-    z-index: 100;
-    top: 61px;
-    left: -127px;
-}
-
-p {
-    font-size: 22px;
-}
-
-.content p {
-    font-size: 20px;
-}
-
-.jacob-container {
-    font-family: 'Open Sans Condensed', sans-serif;
-    padding-top: 25px;
-    display: grid;
-    grid-template-columns: 260px auto 500px;
-    margin: 0 auto;
-    width: 90%;
-    max-width: 960px;
-}
-
-.container {
-    font-family: 'Open Sans Condensed', sans-serif;
-    padding-top: 25px;
-    display: grid;
-    grid-template-columns: auto;
-    margin: 0 auto;
-    width: 90%;
-    max-width: 960px;
-}
-
-.course-title {
-    grid-column: 1;
-}
-
-.course-title h4 {
-    font-size: 18px;
-}
-
-.content {
-    margin-top: 14px;
-    grid-row: 2;
-    grid-column: 1 / 4;
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    margin-left: 20%;
+    border: solid 4px purple;
+    padding: 16px;
+    margin: 12px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 12px auto 12px auto;
 }
 
-.amanda-headshot {
-    padding: 15px;
+ul {
+    display: inline-block;
+    text-align: left;
 }
 
-.amanda-titles {
-    font-size: 22px;
+div {
+    border: solid 2px green;
+    padding: 16px;
+    max-width: 1200px;
+    margin: 12px auto 12px auto;
 }
 
-.joseph-header {
-    margin-left: 5%;
+h1 {
+    color: darkred;
+    border-bottom: solid 2px purple;
+    padding: 2px;
 }
 
-.joseph-aside {
-    margin-top: 12px;
+h2 {
+    color: darkred;
 }
 
-.joseph-nav li {
-    margin-right: 15px;
-    display: inline;
-    padding-bottom: 20px;
+footer {
+    text-align: center;
+    padding: 6px;
 }
 
-.amanda-nav li {
-    margin-right: 15px;
-    display: inline;
-    padding-bottom: 20px;
+.menu ul {
+    list-style-type: none;
+    margin: 12px;
+    padding-left: 12px; 
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    border: 2px solid palevioletred;
+}
+
+.menu a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover{
+    color: black;
+    background-color: grey;
+}
+
+
+.is-current{
+    background-color: #d6a0d1;
 }
